@@ -44,3 +44,12 @@ num6=$(python -c "print ($num4 + $num5)")
 echo $num6
 string=$(python -c "print ('Hi there I am a string','--','Hi there I am a string too!')")
 echo $string
+
+#Interesting form to print:
+cat << END
+
+Hi, this text
+is printed on
+many lines,
+How cool is that?
+END
